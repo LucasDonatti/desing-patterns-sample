@@ -10,8 +10,6 @@ public class Livro {
 	private String editora;
 	private String capa;
 
-	private Livro() {}
-
 	private Livro(String texto, String material, String registro, String editora, String capa) {
 		this.texto = texto;
 		this.material = material;
