@@ -12,7 +12,7 @@ public class Livro {
 
 	private Livro() {}
 
-	public Livro(String texto, String material, String registro, String editora, String capa) {
+	private Livro(String texto, String material, String registro, String editora, String capa) {
 		this.texto = texto;
 		this.material = material;
 		this.registro = registro;
